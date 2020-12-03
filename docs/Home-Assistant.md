@@ -4,7 +4,7 @@ description: Everything about using Tasmota in Home Assistant
 
 [Home Assistant](https://home-assistant.io/) (HA) is an open source home automation solution that puts local control and privacy first.
 
-!!! failure "Home Assistant support is not built in to tasmota-lite.bin. Use the standard tasmota.bin or other binaries that include Home Assistant support."
+!!! failure "Home Assistant support is not built in to tasmota-lite.bin. Use the standard tasmota.bin, tasmota.bin.gz (for Sonoff Basic R3 for example) or other binaries that include Home Assistant support."
 
 Tasmota communicates with Home Assistant using MQTT. Before going any further, make sure MQTT is [properly set up in Home Assistant](https://www.home-assistant.io/docs/mqtt/broker) and [in Tasmota](MQTT). 
 
